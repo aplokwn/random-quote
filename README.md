@@ -1,15 +1,15 @@
 # Random Quote Machine
 
+![ABW Javascript Fetch Json Example Screen Shot][product-screenshot]
+
 <div>
   <a href="https://github.com/aplokwn/ABW_script">
 
   </a>
 
 <h3 >Random Quote Machine</h3>
-
   <p>
     This frontend development libraries project from freeCodeCamp.
-   
   </p>
 </div>
 <br/>
@@ -81,3 +81,4 @@ Note: Twitter does not allow links to be loaded in an iframe. Try using the targ
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com/
+[product-screenshot]: https://raw.githubusercontent.com/aplokwn/random-quote/master/public/preview.png
