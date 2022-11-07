@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Random Quote Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+  <a href="https://github.com/aplokwn/ABW_script">
 
-## Available Scripts
+  </a>
 
-In the project directory, you can run:
+<h3 >Random Quote Machine</h3>
 
-### `npm start`
+  <p>
+    This frontend development libraries project from freeCodeCamp.
+   
+  </p>
+</div>
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live version
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Live on CodePen](https://codepen.io/aplokwn/pen/BaxePQW)
 
-### `npm test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+- [![React][react]][react-url]
+- [![Bootstrap][bootstrap]][bootstrap-url]
+- [![Css][css]][css-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Requirement
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div>
+<h3>Build a Random Quote Machine</h3><br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Objective: Build an app that is functionally similar to this: https://random-quote-machine.freecodecamp.rocks/.
 
-### `npm run eject`
+<p>Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. User Story #1: I can see a wrapper element with a corresponding id="quote-box".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
 
-## Learn More
+4. User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. User Story #5: Within #quote-box, I can see a clickable a element with a corresponding id="tweet-quote".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
 
-### Code Splitting
+7. User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+8. User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
 
-### Analyzing the Bundle Size
+9. User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+10. User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
 
-### Making a Progressive Web App
+11. User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+12. You can build your project by using this CodePen template and clicking Save to create your own pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 
-### Advanced Configuration
+Once you're done, submit the URL to your working project with all its tests passing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Note: Twitter does not allow links to be loaded in an iframe. Try using the target="\_blank" or target="\_top" attribute on the #tweet-quote element if your tweet won't load. target="\_top" will replace the current tab so make sure your work is saved.
 
-### Deployment
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[react]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[html]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html-url]: https://html.com/html5/
+[css]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com/
